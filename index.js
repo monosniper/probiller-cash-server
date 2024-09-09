@@ -17,10 +17,10 @@ app.use(express.json());
 // For using cookies
 app.use(cookieParser());
 
-app.use(cors({
-    credentials: true,
-    origin: null
-}));
+// app.use(cors({
+//     credentials: true,
+//     origin: null
+// }));
 app.use('/api', router);
 app.use(errorMiddleware);
 
