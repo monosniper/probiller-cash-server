@@ -19,4 +19,8 @@ export const $defaultUsers = [
         email: 'hellokitty@murmur.sh',
         password: 'aufaufgg',
     },
+    {
+        email: 'technostock@gmail.com',
+        password: 'h4xYJBmgWK',
+    },
 ]
